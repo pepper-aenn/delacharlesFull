@@ -9,6 +9,7 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var contactRouter = require('./routes/contact');
 var fashionRouter = require('./routes/fashion');
+var skateboardingRouter = require('./routes/skateboarding');
 
 var app = express();
 
@@ -28,7 +29,7 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/contact', contactRouter);
 app.use('/fashion', fashionRouter);
-
+app.use('/skateboarding', skateboardingRouter);
 // Catch 404 and forward to error handler
 app.use(function(req, res, next) {
   var err = new Error('Not Found');
