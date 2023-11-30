@@ -1,0 +1,150 @@
+body {
+  font-family: 'Jost', sans-serif;
+  margin: 0;
+  padding: 93px 30px 93px 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-height: fit-content;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 3px;
+  letter-spacing: -2%;
+  align-items: start;
+}
+
+img {
+  object-fit: contain;
+  width: 100%;
+  height: fit-content;
+}
+
+a {
+  text-decoration: none;
+  color:black;
+}
+
+.side-menu {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-right: 5%;
+}
+
+#home-contact {
+  margin-top: 8px;
+}
+
+#foto-links {
+  margin-bottom: 8px;
+}
+
+.slide-show {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.centered-bottom {
+  position: absolute;
+  bottom: 5%;
+  text-align: center;
+}
+
+.description-below {
+  display: none;
+}
+#announcement {
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+#mail {
+  margin-top: 0;
+  line-height: 12px;
+}
+
+@media screen and (max-width:720px) {
+  body {
+    flex-direction: column;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  a {
+    margin: 0;
+  }
+
+  .side-menu {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 2.5%;
+    padding-right: 0;
+    width: auto;
+    flex-wrap: wrap;
+    /* flex-shrink: 10; */
+  }
+
+  .home-contact {
+    display: flex;
+    flex-direction: row;
+    margin-left: 0;
+  }
+
+  #home-contact {
+    margin-top: 12px;
+    margin-right: 6px;
+  }
+
+  .foto-links {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+  }
+
+  .slide-show {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-height: fit-content;
+    max-width: fit-content;
+  }
+
+  .centered-bottom {
+    visibility: hidden;
+  }
+
+  .description-below {
+    display: flex;
+    flex-direction: column;
+    visibility: visible;
+    padding-top: 2.5%;
+  }
+
+  #announcement-2 {
+    margin-top:12px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .contact {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0;
+  }
+
+  #mail-2 {
+    margin:0;
+    line-height: 12px;
+  }
+}

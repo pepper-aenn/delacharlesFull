@@ -1,0 +1,25 @@
+{
+  "name": "delacharles2.0",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "clean-css": "^5.3.2",
+    "constantinople": "^4.0.1",
+    "cookie-parser": "~1.4.3",
+    "core-js": "^3.33.3",
+    "debug": "~2.6.3",
+    "express": "^4.18.2",
+    "jade": "^0.29.0",
+    "jstransformer": "^1.0.0",
+    "mime": "^4.0.0",
+    "mkdirp": "^3.0.1",
+    "morgan": "^1.10.0",
+    "pug": "^3.0.2",
+    "serve-favicon": "~2.4.2",
+    "serve-static": "^1.15.0"
+  }
+}
