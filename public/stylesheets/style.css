@@ -68,6 +68,36 @@ a {
   line-height: 12px;
 }
 
+.card-container {
+  text-align: center;
+}
+
+.card {
+  display: inline-block;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.centered-text {
+  display: none;
+  padding: 20px;
+}
+
+.card:hover .card-image {
+  opacity: 0;
+}
+
+.card:hover .centered-text {
+  display: block;
+}
+
 @media screen and (max-width:720px) {
   body {
     flex-direction: column;
