@@ -2,13 +2,12 @@ extends layout
 
 block content
   body
-    .side-menu
-      include sidemenu.pug
+    include sidemenu.pug
     .container-projectcard
       .group-0
         each item, index in projectCardFashionData
-            if index === 0
-              include projectcard.pug
+          if index === 0
+            include projectcard.pug
       .group-1
         each item, index in projectCardFashionData
           if index >= 1 && index <= 2

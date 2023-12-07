@@ -82,53 +82,48 @@ img {
   flex-wrap: wrap;
   flex-direction: column;
   width: 826px;
-  margin-left: 28vh;
+  margin-left: 32vh;
   height: 100%;
   overflow-y: auto;
   justify-content: center;
+  align-items: center;
 }
 
 .group-0 {
-  width: 90%; /* Set group-0 to take up the whole width */
-  height: 90%;
-  margin-bottom: 3vh; /* Adjust margin as needed */
+  width: 80%; /* Set group-0 to take up the whole width */
+  height: 80%;
+  margin-bottom: 10vh; /* Adjust margin as needed */
 }
 
 .group-1,
 .group-2 {
-  width: 50%;
-  margin-bottom: 3vh; /* Adjust margin as needed */
+  width: 80%;
   display: flex;
-
   justify-content: space-between;
+  margin-bottom: 10vh;
 }
 
 .card {
-  flex: 1 0 48%; /* Set the width to occupy 48% of the container */
-  margin-bottom: 3vh; /* Adjust margin as needed */
-}
-
-/* Additional styles for card appearance */
-.card {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 45%;
+  margin-bottom: 0;
   position: relative;
-  height: 80%; /* Adjust as needed */
-  overflow: hidden;
 }
 
-.group-1 .card:nth-child(2n),
+.group-0 .card {
+  width: 100%; /* Set the width of cards in group-1 to 100% */
+}
+
+.group-1 .card:nth-child(2n) {
+  margin-left: 4vh; /* Adjust the left margin for even cards in group-1 */
+}
+
 .group-2 .card:nth-child(2n) {
-  margin-left: 4%; /* Adjust the left margin for even cards in group-1 and group-2 */
+  margin-left: 4vh; /* Adjust the left margin for even cards in group-2 */
 }
-
-
 
 .card-image {
   width: 100%;
   height: 100%;
-  transition: 0.2s;
   display: block;
   object-fit: cover;
 }
