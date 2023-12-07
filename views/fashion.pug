@@ -1,11 +1,9 @@
 extends layout
 
 block content
-  .side-menu
+  body
+    .side-menu
     include sidemenu.pug
-
-  .card-container
-    each item in projectCardFashionData
+    .container-projectcard
+      each item in projectCardFashionData
         include projectcard.pug
-    //- else
-    //-   p No card data available

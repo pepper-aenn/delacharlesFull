@@ -5,42 +5,6 @@ body {
   height: fit-content;
 }
 
-.side-menu {
-  width: fit-content;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 0vh 1vh 0vh 7vh;
-  height: 540px;
-}
-
-#home-contact {
-  margin-top: 8px;
-}
-
-#foto-links {
- margin-bottom: 8px;
-}
-
-.container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  height: 100%;
-}
-
-.slide-show {
-  display: flex;
-  position: relative;
-  height: 540px;
-}
-
-img {
-  height: 100%;
-  height: auto;
-  display: block;
-}
-
 p {
   font-size: 18px;
   font-weight: 600;
@@ -53,6 +17,37 @@ p {
 a {
   text-decoration: none;
   color:black;
+}
+
+.side-menu {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0vh 1vh 0vh 7vh;
+  height: 540px;
+  position: fixed;
+}
+
+#home-contact {
+  margin-top: 8px;
+}
+
+#foto-links {
+ margin-bottom: 8px;
+}
+
+.slide-show {
+  display: flex;
+  position: relative;
+  height: 540px;
+  margin-left: 28vh;
+
+}
+
+img {
+  height: 100%;
+  display: block;
 }
 
 .centered-bottom {
@@ -82,26 +77,29 @@ a {
   line-height: 2vh;
 }
 
-.card-container {
-  text-align: center;
+.container-projectcard {
+  display: flex;
+  flex-direction: column;
+  width: 826px;
+  margin-left: 28vh;
+  height: 100%;
+  overflow-y: auto;
 }
 
 .card {
   display: inline-block;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  overflow: hidden;
+  position: relative;
 }
 
 .card-image {
-  width: 300px;
-  height: auto;
-  transition: 0.4s;
+  width: 100%;
+  height: 100%;
+  transition: 0.2s;
+  display: block;
 }
 
 .centered-text {
-  display: none;
-  padding: 20px;
+    display: none;
 }
 
 .card:hover .card-image {
@@ -110,6 +108,12 @@ a {
 
 .card:hover .centered-text {
   display: block;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 @media screen and (max-width:720px) {
