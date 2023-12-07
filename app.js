@@ -11,8 +11,7 @@ var contactRouter = require('./routes/contact');
 var fashionRouter = require('./routes/fashion');
 var skateboardingRouter = require('./routes/skateboarding');
 var diaryRouter = require('./routes/diary');
-var projectCardData = require('./data/projectcard_data.json');
-
+var projectCardFashionData = require('./data/projectcard_fashion_data.json');
 
 var app = express();
 
