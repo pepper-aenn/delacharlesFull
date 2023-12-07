@@ -1,9 +1,8 @@
 body {
   font-family: 'Jost', sans-serif;
-  margin: 0;
-  /* height: 100vh; */
+  margin: 12vh;
   display: flex;
-  height: 100vh;
+  height: fit-content;
 }
 
 .side-menu {
@@ -11,25 +10,35 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 8vh 5px 8vh 5vh;
+  padding: 0vh 1vh 0vh 7vh;
   height: 540px;
-  /* max-height: max-content; */
+}
 
+#home-contact {
+  margin-top: 8px;
+}
+
+#foto-links {
+ margin-bottom: 8px;
 }
 
 .container {
   display: flex;
-  justify-content: center;
   flex-direction: row;
+  justify-content: center;
   height: 100%;
-  padding: 13vh 0px 13vh 0px;
 }
 
 .slide-show {
-  position: relative;
   display: flex;
-  justify-content: center;
+  position: relative;
+  height: 540px;
+}
+
+img {
   height: 100%;
+  height: auto;
+  display: block;
 }
 
 p {
@@ -38,12 +47,7 @@ p {
   line-height: 3px;
   letter-spacing: -2%;
   align-items: start;
-}
-
-img {
-  object-fit: contain;
-  width: 100%;
-  height: fit-content;
+  /* margin: 14px; */
 }
 
 a {
@@ -51,32 +55,31 @@ a {
   color:black;
 }
 
-#home-contact {
-  margin-top: 8px;
-}
-
-#foto-links {
-  margin-bottom: 8px;
-}
-
-
 .centered-bottom {
   position: absolute;
-  bottom: 5%;
+  left: 0;
+  bottom: 3vh;
+  width: 100%;
+  height: 100%;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
 }
 
 .description-below {
   display: none;
 }
+
 #announcement {
   margin-top: 0;
-  margin-bottom: 40px;
+  margin-bottom: 5vh;
 }
 
 #mail {
-  margin-top: 0;
-  line-height: 12px;
+  margin: 0;
+  line-height: 2vh;
 }
 
 .card-container {

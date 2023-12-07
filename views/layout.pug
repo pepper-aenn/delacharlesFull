@@ -9,19 +9,29 @@ html(lang="en")
     title Photography | Dela Charles | Germany
     link(rel="stylesheet", href="/stylesheets/style.css")
   body
-    block content
-        .side-menu
-          include sidemenu.pug
-        .container
-          .slide-show
-          img(src="./images/cover_landingpage.jpg", alt="Hello")
-          .centered-bottom
-            p#announcement Website coming soon!
-            p#mail email: info@delacharles.com
-            p
-              | instagram:
-              a(href="https://www.instagram.com/dela.charles")  @dela.charles
-          .description-below
+  block content
+    .side-menu
+      .home-contact
+        p#home-contact
+          a(href="./") Dela Charles
+        p
+          a(href="./contact") Contact
+      .foto-links
+        p
+          a(href="./fashion") Fashion
+        p
+          a(href="./skateboarding") Skateboarding
+        p#foto-links
+          a(href="./diary") Diary
+    .slide-show
+      img(src="./images/cover_landingpage.jpg", alt="Hello")
+      .centered-bottom
+        p#announcement Website coming soon!
+        p#mail email: info@delacharles.com
+        p
+          | instagram:
+          a(href="https://www.instagram.com/dela.charles")  @dela.charles
+      .description-below
             p#announcement-2 Website coming soon!
             .contact
               p#mail-2 email: info@delacharles.com
