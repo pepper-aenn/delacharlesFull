@@ -84,11 +84,19 @@ img {
   margin-left: 28vh;
   height: 100%;
   overflow-y: auto;
+  flex-grow: 1;
+  align-items: center;
 }
 
 .card {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
+  margin-bottom: 3vh;
+  width: 80%;
+  height: 80%;
+  overflow: hidden;
 }
 
 .card-image {
@@ -96,6 +104,7 @@ img {
   height: 100%;
   transition: 0.2s;
   display: block;
+  object-fit: cover;
 }
 
 .centered-text {

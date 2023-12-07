@@ -2,8 +2,9 @@ extends layout
 
 block content
   body
-    .side-menu
-    include sidemenu.pug
-    .container-projectcard
-      each item in projectCardFashionData
-        include projectcard.pug
+  .side-menu
+  include sidemenu.pug
+  .container-projectcard
+      each item, index in projectCardFashionData
+        .card(class=`${index + 1}`)
+          include projectcard.pug
