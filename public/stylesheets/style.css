@@ -5,42 +5,6 @@ body {
   height: fit-content;
 }
 
-.side-menu {
-  width: fit-content;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 0vh 1vh 0vh 7vh;
-  height: 540px;
-}
-
-#home-contact {
-  margin-top: 8px;
-}
-
-#foto-links {
- margin-bottom: 8px;
-}
-
-.container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  height: 100%;
-}
-
-.slide-show {
-  display: flex;
-  position: relative;
-  height: 540px;
-}
-
-img {
-  height: 100%;
-  height: auto;
-  display: block;
-}
-
 p {
   font-size: 18px;
   font-weight: 600;
@@ -53,6 +17,37 @@ p {
 a {
   text-decoration: none;
   color:black;
+}
+
+.side-menu {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0vh 1vh 0vh 7vh;
+  height: 540px;
+  position: fixed;
+}
+
+#home-contact {
+  margin-top: 8px;
+}
+
+#foto-links {
+ margin-bottom: 8px;
+}
+
+.slide-show {
+  display: flex;
+  position: relative;
+  height: 540px;
+  margin-left: 28vh;
+
+}
+
+img {
+  height: 100%;
+  display: block;
 }
 
 .centered-bottom {
@@ -82,26 +77,59 @@ a {
   line-height: 2vh;
 }
 
-.card-container {
-  text-align: center;
+.container-projectcard {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 826px;
+  margin-left: 32vh;
+  height: 100%;
+  overflow-y: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.group-0 {
+  width: 80%; /* Set group-0 to take up the whole width */
+  height: 80%;
+  margin-bottom: 10vh; /* Adjust margin as needed */
+}
+
+.group-1,
+.group-2 {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10vh;
 }
 
 .card {
-  display: inline-block;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  overflow: hidden;
+  width: 45%;
+  margin-bottom: 0;
+  position: relative;
+}
+
+.group-0 .card {
+  width: 100%; /* Set the width of cards in group-1 to 100% */
+}
+
+.group-1 .card:nth-child(2n) {
+  margin-left: 4vh; /* Adjust the left margin for even cards in group-1 */
+}
+
+.group-2 .card:nth-child(2n) {
+  margin-left: 4vh; /* Adjust the left margin for even cards in group-2 */
 }
 
 .card-image {
-  width: 300px;
-  height: auto;
-  transition: 0.4s;
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
 }
 
 .centered-text {
-  display: none;
-  padding: 20px;
+    display: none;
 }
 
 .card:hover .card-image {
@@ -110,6 +138,12 @@ a {
 
 .card:hover .centered-text {
   display: block;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 @media screen and (max-width:720px) {
