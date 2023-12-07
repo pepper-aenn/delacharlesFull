@@ -1,4 +1,11 @@
 extends layout
 
 block content
-  h1 Test Fashion Page
+  .side-menu
+    include sidemenu.pug
+
+  .card-container
+    each item in projectCardFashionData
+        include projectcard.pug
+    //- else
+    //-   p No card data available
