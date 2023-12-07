@@ -146,6 +146,22 @@ img {
   text-align: center;
 }
 
+.container-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 540px;
+  width: 826px;
+  margin: 0 auto;  /* Center the container horizontally */
+}
+
+.centered-text-container {
+  text-align: center;
+}
+
+
+
+
 @media screen and (max-width:720px) {
   body {
     flex-direction: column;
