@@ -158,9 +158,6 @@ img {
   text-align: center;
 }
 
-
-
-
 @media screen and (max-width:720px) {
   body {
     flex-direction: column;
@@ -183,7 +180,6 @@ img {
     box-sizing: border-box;
     width: 89%;
     height: fit-content;
-    /* justify-content: center; */
   }
 
   .home-contact {
@@ -255,6 +251,12 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  margin-left: 0;
+  margin-top: 10vh;
   max-height: fit-content;
   max-width: fit-content;
+  overflow-x: auto;
+
+}
 }
