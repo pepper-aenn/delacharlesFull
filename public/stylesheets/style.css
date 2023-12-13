@@ -40,13 +40,12 @@ a {
 .slide-show {
   display: flex;
   position: relative;
-  height: 540px;
+  height: fit-content;
   margin-left: 32vh;
-
 }
 
 img {
-  height: 100%;
+  height: fit fit-content;
   display: block;
 }
 
@@ -80,7 +79,6 @@ img {
 .container-projectcard {
   display: flex;
   flex-wrap: wrap;
-  position: relative;
   flex-direction: column;
   width: 826px;
   margin-left: 32vh;
@@ -179,28 +177,35 @@ img {
   .side-menu {
     display: flex;
     flex-direction: row;
-    padding-bottom: 2.5%;
-    padding-right: 0;
-    width: auto;
     flex-wrap: wrap;
-    /* flex-shrink: 10; */
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    width: 89%;
+    height: fit-content;
+    /* justify-content: center; */
   }
 
   .home-contact {
     display: flex;
     flex-direction: row;
     margin-left: 0;
+    width: 25%;
+    justify-content: space-between;
   }
 
   #home-contact {
     margin-top: 12px;
     margin-right: 6px;
+    width: fit-content;
   }
 
   .foto-links {
     display: flex;
     flex-direction: row;
-    gap: 6px;
+    /* padding-lefts: 3%; */
+    width: 75%;
+    justify-content: space-evenly;
   }
 
   .slide-show {
@@ -208,8 +213,10 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-left: 0;
+    margin-top: 10vh;
     max-height: fit-content;
-    max-width: fit-content;
+    /* max-width: fit-content; */
   }
 
   .centered-bottom {
@@ -242,4 +249,12 @@ img {
     margin:0;
     line-height: 12px;
   }
+
+.container-projectcard {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-height: fit-content;
+  max-width: fit-content;
 }
