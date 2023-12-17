@@ -40,7 +40,8 @@ a {
 .slide-show {
   display: flex;
   position: relative;
-  height: fit-content;
+  height: 540px;
+  width: auto;
   margin-left: 32vh;
 }
 
@@ -156,7 +157,8 @@ img {
 }
 
 #image-container {
-  position: relative;
+  height: fit-content;
+
 }
 
 @media screen and (max-width:720px) {

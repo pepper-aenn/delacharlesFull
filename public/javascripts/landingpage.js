@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
       }
 
       // Change image every 2000 milliseconds (2 seconds)
-      setInterval(changeImage, 2000);
+      setInterval(changeImage, 1100);
 
       // Initial image load
       changeImage();
