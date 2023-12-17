@@ -11,13 +11,13 @@ var contactRouter = require('./routes/contact');
 var fashionRouter = require('./routes/fashion');
 var skateboardingRouter = require('./routes/skateboarding');
 var diaryRouter = require('./routes/diary');
-var projectCardFashionData = require('./data/projectcard_fashion_data.json');
+// var projectCardFashionData = require('./data/projectcard_fashion_data.json');
 
 var app = express();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'ejs');
+app.set('view engine', 'pug');
 
 app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 app.use(logger('dev'));

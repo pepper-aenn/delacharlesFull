@@ -1,8 +1,11 @@
 extends layout
 
 block content
+  include sidemenu.pug
   body
-    include sidemenu.pug
+    .slide-show
       #image-container
         img#gif-like-image(src="", alt="GIF-like Image")
-    script(src="script.js")
+
+    // Embedded JavaScript code
+    script(src="/javascripts/landingpage.js")
