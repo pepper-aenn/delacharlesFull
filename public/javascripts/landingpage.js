@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
   let imageData; // Variable to store image data
 
   // Fetch JSON data
-  fetch('/data/landingpage_data.json')
+  fetch('./data/landingpage_data.json')
     .then(response => response.json())
     .then(data => {
       // Assign the entire JSON data to imageData
