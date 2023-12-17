@@ -41,12 +41,12 @@ a {
   display: flex;
   position: relative;
   height: 540px;
+  width: auto;
   margin-left: 32vh;
-
 }
 
 img {
-  height: 100%;
+  height: fit fit-content;
   display: block;
 }
 
@@ -152,15 +152,14 @@ img {
   align-items: center;
   height: 540px;
   width: 826px;
-  margin: 0 auto;  /* Center the container horizontally */
+  margin: 0 auto;
+  margin-left: 32vh;
 }
 
-.centered-text-container {
-  text-align: center;
+#image-container {
+  height: fit-content;
+
 }
-
-
-
 
 @media screen and (max-width:720px) {
   body {
@@ -178,37 +177,43 @@ img {
   .side-menu {
     display: flex;
     flex-direction: row;
-    padding-bottom: 2.5%;
-    padding-right: 0;
-    width: auto;
     flex-wrap: wrap;
-    /* flex-shrink: 10; */
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    width: 89%;
+    height: fit-content;
   }
 
   .home-contact {
     display: flex;
     flex-direction: row;
     margin-left: 0;
+    width: 25%;
+    justify-content: space-between;
   }
 
   #home-contact {
     margin-top: 12px;
     margin-right: 6px;
+    width: fit-content;
   }
 
   .foto-links {
     display: flex;
     flex-direction: row;
-    gap: 6px;
+    /* padding-lefts: 3%; */
+    width: 75%;
+    justify-content: space-evenly;
   }
 
   .slide-show {
-    position: relative;
-    display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-left: 0;
+    margin-top: 10vh;
     max-height: fit-content;
-    max-width: fit-content;
+    /* max-width: fit-content; */
   }
 
   .centered-bottom {
@@ -241,4 +246,34 @@ img {
     margin:0;
     line-height: 12px;
   }
+
+.container-projectcard {
+  /* position: relative; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 0;
+  margin-top: 10vh;
+  height: fit-content;
+  /* width: 50%; */
+}
+
+.group-0 {
+  /* width: 89%; */
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5vh;
+  margin: 0;
+}
+
+.container-text {
+  margin-top: 10vh;
+  max-height: fit-content;
+  max-width: fit-content;
+  margin-left: 0;
+
+}
+
 }

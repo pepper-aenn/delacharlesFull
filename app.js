@@ -11,7 +11,6 @@ var contactRouter = require('./routes/contact');
 var fashionRouter = require('./routes/fashion');
 var skateboardingRouter = require('./routes/skateboarding');
 var diaryRouter = require('./routes/diary');
-var projectCardFashionData = require('./data/projectcard_fashion_data.json');
 
 var app = express();
 
@@ -19,8 +18,7 @@ var app = express();
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
 
-// Uncomment after placing your favicon in /public
-// app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
+app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
