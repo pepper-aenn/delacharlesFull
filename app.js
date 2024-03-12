@@ -11,6 +11,7 @@ var contactRouter = require('./routes/contact');
 var fashionRouter = require('./routes/fashion');
 var skateboardingRouter = require('./routes/skateboarding');
 var diaryRouter = require('./routes/diary');
+const detailRouter = require('./routes/detail');
 
 var app = express();
 
@@ -31,6 +32,7 @@ app.use('/contact', contactRouter);
 app.use('/fashion', fashionRouter);
 app.use('/skateboarding', skateboardingRouter);
 app.use('/diary', diaryRouter);
+app.use('/detail', detailRouter);
 
 // Catch 404 and forward to error handler
 app.use(function(req, res, next) {
