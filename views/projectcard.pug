@@ -1,5 +1,5 @@
 .card
-  img(src=item.imageUrl, alt="Card Image", class="card-image", onmouseover="hideImage(this)", onmouseout="showImage(this)" onclick=`navigateToDynamicRoute('${item.routeName}')`)
+  img(src=item.imageUrl, alt="Card Image", class="card-image", onmouseover="hideImage(this)", onmouseout="showImage(this)" onclick=`navigateToDynamicDetailRoute('${item.routeName}')`)
   p.centered-text= item.text
 
 script(src="/javascripts/script.js")

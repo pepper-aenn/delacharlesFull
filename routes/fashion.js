@@ -8,7 +8,6 @@ var projectCardFashionData = require('../public/data/projectcard_fashion_data.js
 /* GET fashion page. */
 router.get('/', (req, res) => {
   res.render('fashion', { title: 'FashionPage', projectCardFashionData });
-  console.log('Absolute path to data file:', dataPath);
 });
 
 module.exports = router;
