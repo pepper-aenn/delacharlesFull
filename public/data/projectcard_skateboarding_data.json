@@ -2,8 +2,9 @@
   { "imageUrl": "/images/projectcards/skateboarding/1_DC_Screwloose.jpeg", "text": "DC Screwloose", "routeName": "dc_screwloose" },
   { "imageUrl": "/images/projectcards/skateboarding/2_LousyLivin.jpg", "text": "Lousy Livin", "routeName":"lousylivin" },
   { "imageUrl": "/images/projectcards/skateboarding/3_SillePush.jpg", "text": "Photobook 348 Days", "routeName": "photobook348days" },
-  { "imageUrl": "/images/projectcards/skateboarding/4_LobbyxAdidas_Flinta.jpg", "text": "LobbyxAdidas", "routeName":"lobbyxadidas_flinta" },
+  { "imageUrl": "/images/projectcards/skateboarding/4_LobbyxAdidas_Flinta.jpg", "text": "Lobby x Adidas", "routeName":"lobbyxadidas_flinta" },
   { "imageUrl": "/images/projectcards/skateboarding/5_Antix.jpg", "text": "Antix", "routeName": "antix" },
   { "imageUrl": "/images/projectcards/skateboarding/7_luciddreaming.jpg", "text": "Lucid Dreaming", "routeName":"luciddreaming" },
+  { "imageUrl": "/images/projectcards/skateboarding/7_luciddreaming.jpg", "text": "filler", "routeName":"luciddreaming" },
   { "imageUrl": "/images/projectcards/skateboarding/8_GSD.jpg", "text": "GSD", "routeName": "gsd" }
 ]

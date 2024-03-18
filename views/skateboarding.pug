@@ -8,15 +8,19 @@ block content
         each item, index in projectCardSkateboardingData
           if index >= 0 && index <= 1
             include projectcard.pug
-      .group-1
+      .group-0
         each item, index in projectCardSkateboardingData
-          if index >= 2 && index <= 3
+          if index === 2
             include projectcard.pug
       .group-1
         each item, index in projectCardSkateboardingData
-          if index >= 4 && index <= 5
+          if index >= 3 && index <= 4
             include projectcard.pug
       .group-1
         each item, index in projectCardSkateboardingData
-          if index >= 6 && index <= 7
+          if index >= 5 && index <= 6
+            include projectcard.pug
+      .group-0
+        each item, index in projectCardSkateboardingData
+          if index === 7
             include projectcard.pug
