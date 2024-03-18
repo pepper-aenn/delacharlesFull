@@ -4,3 +4,19 @@ block content
   body
     include sidemenu.pug
     .container-projectcard
+      .group-1
+        each item, index in projectCardSkateboardingData
+          if index >= 0 && index <= 1
+            include projectcard.pug
+      .group-1
+        each item, index in projectCardSkateboardingData
+          if index >= 2 && index <= 3
+            include projectcard.pug
+      .group-1
+        each item, index in projectCardSkateboardingData
+          if index >= 4 && index <= 5
+            include projectcard.pug
+      .group-1
+        each item, index in projectCardSkateboardingData
+          if index >= 6 && index <= 7
+            include projectcard.pug

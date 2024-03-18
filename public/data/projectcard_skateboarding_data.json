@@ -1,4 +1,9 @@
 [
-  { "imageUrl": "/images/projectcards/skateboarding/23_Luke_Anderson_Analog_Alexanderplatz-5.jpg", "text": "Luke" }
-
+  { "imageUrl": "/images/projectcards/skateboarding/1_DC_Screwloose.jpeg", "text": "DC Screwloose" },
+  { "imageUrl": "/images/projectcards/skateboarding/2_LousyLivin.jpg", "text": "Lousy Livin" },
+  { "imageUrl": "/images/projectcards/skateboarding/3_SillePush.jpg", "text": "Photobook 348 Days" },
+  { "imageUrl": "/images/projectcards/skateboarding/4_LobbyxAdidas_Flinta.jpg", "text": "LobbyxAdidas" },
+  { "imageUrl": "/images/projectcards/skateboarding/5_Antix.jpg", "text": "Antix" },
+  { "imageUrl": "/images/projectcards/skateboarding/7_luciddreaming.jpg", "text": "Lucid Dreaming" },
+  { "imageUrl": "/images/projectcards/skateboarding/8_GSD.jpg", "text": "GSD" }
 ]
