@@ -9,7 +9,7 @@ var landingPageData = require('../public/data/landingpage_data.json');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('layoutStart', { title: 'Express', landingPageData });
+  res.render('landingpage.pug', { title: 'Express', landingPageData });
 });
 
 module.exports = router;
