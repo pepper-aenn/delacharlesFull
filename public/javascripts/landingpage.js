@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
   const imageContainer = document.getElementById('image-container');
   const gifLikeImage = document.getElementById('gif-like-image');
+  const landingpageContainer = document.querySelector('.container')
 
   let imageData; // Variable to store image data
 
@@ -21,9 +22,19 @@ document.addEventListener('DOMContentLoaded', function () {
 
       // Change image every 2000 milliseconds (2 seconds)
       setInterval(changeImage, 650);
-w
+
       // Initial image load
       changeImage();
     })
     .catch(error => console.error('Error fetching JSON:', error));
+
+  // Function to redirect to fashion page
+  function redirectToFashion() {
+    // Redirect to the desired route
+    window.location.href = '/fashion';
+  }
+
+  landingpageContainer.addEventListener('click', redirectToFashion);
 });
+
+
