@@ -108,6 +108,8 @@ img {
   width: 45%;
   margin-bottom: 0;
   position: relative;
+  word-wrap: break-word;
+  white-space: pre-wrap;
 }
 
 .group-0 .card {
