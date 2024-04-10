@@ -11,7 +11,6 @@ p {
   line-height: 3px;
   letter-spacing: -2%;
   align-items: start;
-  /* margin: 14px; */
 }
 
 a {
@@ -29,54 +28,12 @@ a {
   position: fixed;
 }
 
-#home-contact {
-  margin-top: 8px;
-}
-
-#foto-links {
- margin-bottom: 8px;
-}
-
-.slide-show {
-  display: flex;
-  position: relative;
-  height: 540px;
-  width: auto;
-  margin-left: 32vh;
-}
-
 img {
   object-fit: contain;
   width: 100%;
   height: 540px;
 }
 
-.centered-bottom {
-  position: absolute;
-  left: 0;
-  bottom: 3vh;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: end;
-}
-
-.description-below {
-  display: none;
-}
-
-#announcement {
-  margin-top: 0;
-  margin-bottom: 5vh;
-}
-
-#mail {
-  margin: 0;
-  line-height: 2vh;
-}
 
 .container-projectcard {
   display: flex;
