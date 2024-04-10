@@ -1,0 +1,9 @@
+extends ../layout
+
+block content
+  body
+    include ../sidemenu.pug
+    .container-projectcard
+        .group-0
+            each item, index in detailData
+                img(src=item.imageUrl)
