@@ -4,11 +4,11 @@ block content
   body
     include sidemenu.pug
     .container-projectcard
-      .group-0
+      .group-1
         each item, index in projectCardFashionData
           if index === 0
             include projectcard.pug
-      .group-1
+      .group-0
         each item, index in projectCardFashionData
           if index >= 1 && index <= 2
             include projectcard.pug
