@@ -91,6 +91,7 @@ img {
 .centered-text {
     display: none;
     cursor: pointer;
+    line-height: 1.5;
 }
 
 .card:hover .card-image {
