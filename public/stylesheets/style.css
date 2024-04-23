@@ -98,8 +98,6 @@ img {
 
 .group-4 {
   width: 100%;
-  /* height: auto; */
-  /* margin-bottom: 30px; */
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -111,7 +109,36 @@ img {
   width: 95%; 
   height: auto; 
   margin-bottom: 20px; 
+  margin-left: 60px;
+}
+
+.group-5 {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100%; /* Ensure the container has a height */
+}
+
+.group-5 img {
+  width: 130%;
+  height: 95%;
+  /* margin-left: 20px; */
+  margin-bottom: 20px; 
+}
+
+.group-5 .lousy {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;
+  height: 95%; /* Ensure the container has a height */
+  padding: 40px;
+}
+
+.group-5 .lousy img {
+  width: 105%;
+  /* height: 95%; */
   margin-left: 30px;
+  margin-bottom: 20px; 
 }
 
 .card-image {
