@@ -84,8 +84,6 @@ img {
 .group-3 {
   width: 60%;
   height: 10%;
-  /* display: flex; */
-  /* justify-content: space-between; */
   margin-bottom: 30px;
   display: flex;
   flex-direction: column;
@@ -96,6 +94,24 @@ img {
   width: 71%; /* Make the images fill their container */
   height: auto; /* Maintain aspect ratio */
   margin-bottom: 30px; /* Additional margin bottom for spacing between images */
+}
+
+.group-4 {
+  width: 100%;
+  /* height: auto; */
+  /* margin-bottom: 30px; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.group-4 img {
+  width: 95%; 
+  height: auto; 
+  margin-bottom: 20px; 
+  margin-left: 30px;
 }
 
 .card-image {
