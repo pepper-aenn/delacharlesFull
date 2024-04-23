@@ -21,20 +21,24 @@ function navigateToDynamicDetailRoute(text) {
   }
 }
 
-// Function to hide image on mouseover
 function hideImage(element) {
   // Check if it's not a detailed view page
   if (!document.body.classList.contains('detailed-view')) {
-      // Hide the image
-      element.style.opacity = 0;
+    // Hide the image
+    element.style.opacity = 0;
+    // Show the centered text
+    element.nextElementSibling.style.display = 'block';
   }
 }
 
-// Function to show image on mouseout
+// Function to show image on mouseout and hide text
 function showImage(element) {
   // Check if it's not a detailed view page
   if (!document.body.classList.contains('detailed-view')) {
-      // Show the image
-      element.style.opacity = 1;
+    // Show the image
+    element.style.opacity = 1;
+    // Hide the centered text
+    element.nextElementSibling.style.display = 'none';
   }
 }
+

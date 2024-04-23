@@ -89,9 +89,9 @@ img {
 }
 
 .centered-text {
-    display: none;
-    cursor: pointer;
-    line-height: 1.5;
+  display: none;
+  cursor: pointer;
+  line-height: 1.5;
 }
 
 .card:hover .card-image {
@@ -100,13 +100,13 @@ img {
 
 .card:hover .centered-text {
   display: block;
-  align-items: center;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
 
 .container-text {
   display: flex;
