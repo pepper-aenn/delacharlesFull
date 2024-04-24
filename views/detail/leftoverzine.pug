@@ -1,8 +1,31 @@
 extends ../layout
 
 block content
-  body
+  body.detailed-view
     include ../sidemenu.pug
     .container-projectcard
-      each item, index in detailData
-        img(src=item.imageUrl)
+      .group-5
+        .leftover
+          each item, index in detailData
+            if index === 0
+              include ../projectcardClean.pug
+      .group-4
+        .irregular
+          each item, index in detailData
+            if index >= 1 && index <= 2
+              include ../projectcardClean.pug
+      .group-6
+        each item, index in detailData
+          if index >=3 && index <= 5
+            include ../projectcardClean.pug
+      .group-4
+        .irregular2
+          each item, index in detailData
+            if index >= 6 && index <= 7
+              include ../projectcardClean.pug
+      .group-5
+        .irregular
+          each item, index in detailData
+            if index === 8
+              include ../projectcardClean.pug
+              
