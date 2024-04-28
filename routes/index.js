@@ -1,15 +1,14 @@
 var express = require('express');
 var router = express.Router();
 const path = require('path');
-// const dataPath = path.join(__dirname, '../public/data/landingpage_data.json');
-// const landingPageData = require(dataPath);
 
+// var landingPageData = require('../public/data/landingpage_data.json');
 
-var landingPageData = require('../public/data/landingpage_data.json');
+var projectCardFashionData = require('../public/data/projectcard_fashion_data.json');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('landingpage', { title: 'Express', landingPageData });
+  res.render('work', { title: 'Express', projectCardFashionData });
 });
 
 module.exports = router;

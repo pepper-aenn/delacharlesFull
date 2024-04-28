@@ -7,7 +7,7 @@ var projectCardFashionData = require('../public/data/projectcard_fashion_data.js
 
 /* GET fashion page. */
 router.get('/', (req, res) => {
-  res.render('fashion', { title: 'FashionPage', projectCardFashionData });
+  res.render('work', { title: 'WorkPage', projectCardFashionData });
 });
 
 module.exports = router;
