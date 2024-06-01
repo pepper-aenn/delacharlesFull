@@ -104,39 +104,30 @@
 
 .group-5 {
   display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
-  height: 100%; /* Ensure the container has a height */
+  justify-content: center; 
+  /* align-items: center;  */
 }
 
 .group-5 img {
-  width: 130%;
-  height: 95%;
-  margin-bottom: 20px; 
+  height: 520px;
+  width: max-content;
+  margin-bottom: 400px; 
 }
 
-.group-5 .lousy {
+/* .group-5 .lousy {
   display: flex;
   justify-content: center; /* Center horizontally */
-  align-items: center;
+  /* align-items: center;
   height: 95%; 
-  padding: 40px;
-}
+  padding: 40px; */
+/* } */ 
 
-.group-5 .lousy img {
+/* .group-5 .lousy img {
   width: 105%;
   height: 95%;
   /* margin-left: px; */
-  margin-bottom: 20px; 
-}
-
-.group-5 .irregular {
-  display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center;
-  height: 100%;
-  margin-left: 20px;
-}
+  /* margin-bottom: 20px;  */
+/* } */ 
 
 .group-5 .leftover {
   display: flex;
@@ -146,12 +137,12 @@
   margin-left: 20px;
 }
 
-.group-5 .irregular img {
+/* .group-5 .irregular img {
   width: 95%;
   /* height: 95%; */
   /* margin-left: px; */
-  margin-bottom: 400px; 
-}
+  /* margin-bottom: 400px;  */
+/* } */ 
 
 .group-5 .leftover img {
   width: 100%;
