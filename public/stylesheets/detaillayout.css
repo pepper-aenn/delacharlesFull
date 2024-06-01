@@ -1,0 +1,169 @@
+.group-0 {
+  height: 520px;
+  margin-bottom: 10vh;
+}
+
+.group-1,
+.group-2 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10vh;
+}
+
+.card {
+  width: 45%;
+  margin-bottom: 0;
+  position: relative;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+}
+
+.group-0 .card {
+  width: 100%; /* Set the width of cards in group-1 to 100% */
+}
+
+.group-1 .card:nth-child(2n) {
+  margin-left: 4vh; /* Adjust the left margin for even cards in group-1 */
+}
+
+.group-2 .card:nth-child(2n) {
+  margin-left: 4vh; /* Adjust the left margin for even cards in group-2 */
+}
+
+.group-3 {
+  height: 520px;
+  display: flex;
+  flex-direction: column;
+  align-items:  center;
+  margin-top: 10px;
+}
+
+.group-3 img {
+  object-fit: contain;
+  margin-bottom: 30px; 
+}
+
+.group-4 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.group-4 img {
+  width: 95%; 
+  height: auto; 
+  margin-bottom: 20px; 
+  margin-left: 30px;
+}
+
+.group-4 .irregular,
+.group-4 .irregular2 {
+  display: flex; /* Set display to flex to arrange items in a row */
+  justify-content: center; /* Center items horizontally */
+  margin-bottom: 370px;
+  margin-left: 20px;
+}
+
+.group-4 .irregular .card .img,
+.group-4 .irregular2 .card .img {
+  margin: 0;
+}
+
+.group-4 .irregular .card:first-child img {
+  width: 60%; /* Set width for the first image */
+  display: flex;
+  justify-content: center;
+  margin-top: 85px;
+  margin-left: 100px;
+}
+
+.group-4 .irregular .card:nth-child(2) img {
+  width: 90%; 
+}
+
+.group-4 .irregular2 .card:first-child img {
+  width: 95%; 
+  margin-right: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.group-4 .irregular2 .card-image {
+  width: 60%;
+}
+
+.group-4 .irregular2 .card {
+  /* display: flex;
+  justify-content: center; */
+  margin-left: 30px;
+  height: auto;
+  padding-top: 85px;
+}
+
+.group-5 {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100%; /* Ensure the container has a height */
+}
+
+.group-5 img {
+  width: 130%;
+  height: 95%;
+  margin-bottom: 20px; 
+}
+
+.group-5 .lousy {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;
+  height: 95%; 
+  padding: 40px;
+}
+
+.group-5 .lousy img {
+  width: 105%;
+  height: 95%;
+  /* margin-left: px; */
+  margin-bottom: 20px; 
+}
+
+.group-5 .irregular {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;
+  height: 100%;
+  margin-left: 20px;
+}
+
+.group-5 .leftover {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;
+  height: 100%;
+  margin-left: 20px;
+}
+
+.group-5 .irregular img {
+  width: 95%;
+  /* height: 95%; */
+  /* margin-left: px; */
+  margin-bottom: 400px; 
+}
+
+.group-5 .leftover img {
+  width: 100%;
+  margin-bottom: 400px; 
+}
+
+.group-6 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 65%;
+  margin-left: 100px;
+  margin-bottom: 400px;
+}
