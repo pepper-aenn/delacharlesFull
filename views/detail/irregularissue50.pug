@@ -5,27 +5,24 @@ block content
     include ../sidemenu.pug
     .container-projectcard
       .group-5
-        .irregular
-          each item, index in detailData
-            if index === 0
-              include ../projectcardClean.pug
+        each item, index in detailData
+          if index === 0
+            include ../projectcardClean.pug
       .group-4
-        .irregular
+        .left
           each item, index in detailData
             if index >= 1 && index <= 2
               include ../projectcardClean.pug
       .group-5 
-        .irregular
-          each item, index in detailData
-            if index === 3
-              include ../projectcardClean.pug
+        each item, index in detailData
+          if index === 3
+            include ../projectcardClean.pug
       .group-4
         .irregular2
           each item, index in detailData
             if index >= 4 && index <= 5
               include ../projectcardClean.pug
       .group-5
-        .irregular
-          each item, index in detailData
-            if index === 6
-              include ../projectcardClean.pug
+        each item, index in detailData
+          if index === 6
+            include ../projectcardClean.pug
