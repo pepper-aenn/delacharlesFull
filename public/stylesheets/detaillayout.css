@@ -105,7 +105,6 @@
 .group-5 {
   display: flex;
   justify-content: center; 
-  /* align-items: center;  */
 }
 
 .group-5 img {
@@ -118,14 +117,6 @@
   margin-top: 60px;
   margin-bottom: 60px; 
 } 
-
-/* .group-5 .leftover {
-  align-items: center;
-} */
-
-.group-5 .leftover img {
-  margin-bottom: 400px; 
-}
 
 .group-6 {
   display: flex;
