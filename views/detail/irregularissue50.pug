@@ -18,9 +18,12 @@ block content
           if index === 3
             include ../projectcardClean.pug
       .group-4
+        each item, index in detailData
+          if index === 4
+            include ../projectcardClean.pug
         .right
           each item, index in detailData
-            if index >= 4 && index <= 5
+            if index === 5
               include ../projectcardClean.pug
       .group-5
         each item, index in detailData
