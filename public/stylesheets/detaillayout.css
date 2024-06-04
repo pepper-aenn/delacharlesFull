@@ -6,28 +6,15 @@
   white-space: pre-wrap;
 }
 
-.group-0 {
-  height: 520px;
-  margin-bottom: 10vh;
+.group-0 .card {
+  width: 100%;
+  margin-bottom: 80px;
 }
 
-.group-1,
-.group-2 {
+.group-1 {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 10vh;
-}
-
-.group-0 .card {
-  width: 100%; /* Set the width of cards in group-1 to 100% */
-}
-
-.group-1 .card:nth-child(2n) {
-  margin-left: 4vh; /* Adjust the left margin for even cards in group-1 */
-}
-
-.group-2 .card:nth-child(2n) {
-  margin-left: 4vh; /* Adjust the left margin for even cards in group-2 */
+  margin-bottom: 80px;
 }
 
 .group-3 {
