@@ -19,15 +19,16 @@ block content
           if index >=3 && index <= 5
             include ../projectcardClean.pug
       .group-4
-        each item, index in detailData
-          if index === 6
-            include ../projectcardClean.pug
-        .right
           each item, index in detailData
-            if index === 7
+            if index === 6
               include ../projectcardClean.pug
+          .right
+            each item, index in detailData
+              if index === 7
+                include ../projectcardClean.pug
       .group-5
-        each item, index in detailData
-          if index === 8
-            include ../projectcardClean.pug
+        .marginTop
+          each item, index in detailData
+            if index === 8
+              include ../projectcardClean.pug
               

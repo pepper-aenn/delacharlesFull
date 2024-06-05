@@ -5,32 +5,39 @@ block content
     include ../sidemenu.pug
     .container-projectcard
       .group-4
-        each item, index in detailData
-          if index >= 0 && index <= 1
-            include ../projectcardClean.pug
+        .space-between
+          each item, index in detailData
+            if index >= 0 && index <= 1
+              include ../projectcardClean.pug
       .group-5
         .antix
           each item, index in detailData
             if index === 2
               include ../projectcardClean.pug
       .group-4
-        each item, index in detailData
-          if index >= 3 && index <= 4
-            include ../projectcardClean.pug
+        .space-between
+          .SmMarginBottom
+            each item, index in detailData
+              if index >= 3 && index <= 4
+                include ../projectcardClean.pug
       .group-4
-        each item, index in detailData
-          if index >= 5 && index <= 6
-            include ../projectcardClean.pug
+        .space-between
+          .SmMarginBottom
+            each item, index in detailData
+              if index >= 5 && index <= 6
+                include ../projectcardClean.pug
       .group-4
-        each item, index in detailData
-          if index >= 7 && index <= 8
-            include ../projectcardClean.pug
+        .space-between         
+          each item, index in detailData
+            if index >= 7 && index <= 8
+              include ../projectcardClean.pug
       .group-5
         .antix
           each item, index in detailData
             if index === 9
               include ../projectcardClean.pug
       .group-4
-        each item, index in detailData
-          if index >= 10 && index <= 11
-            include ../projectcardClean.pug
+        .space-between
+          each item, index in detailData
+            if index >= 10 && index <= 11
+              include ../projectcardClean.pug

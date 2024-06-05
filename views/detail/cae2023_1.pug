@@ -4,5 +4,41 @@ block content
   body
     include ../sidemenu.pug
     .container-projectcard
-      each item, index in detailData
-        img(src=item.imageUrl)
+      .group-5
+        each item, index in detailData
+          if index === 0
+            include ../projectcardClean.pug
+      .group-4
+        .left
+          each item, index in detailData
+            if index >= 1 && index <= 2
+              include ../projectcardClean.pug
+      .group-0 
+        each item, index in detailData
+          if index === 3
+            include ../projectcardClean.pug
+      .group-5
+        each item, index in detailData
+          if index === 4
+            include ../projectcardClean.pug
+      .group-4
+        .space-between
+          each item, index in detailData
+            if index >= 5 && index <= 6
+              include ../projectcardClean.pug
+      .group-6
+        each item, index in detailData
+          if index >= 7 && index <= 9
+            include ../projectcardClean.pug
+      .group-4
+        .space-between
+          each item, index in detailData
+            if index >= 10 && index <= 11
+              include ../projectcardClean.pug
+      .group-5
+        each item, index in detailData
+          if index === 0
+            include ../projectcardClean.pug
+      
+
+      
