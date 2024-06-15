@@ -1,0 +1,10 @@
+extends ../layout
+
+block content
+  body.detailed-view
+    include ../sidemenu.pug
+    .container-projectcard
+      .group-5
+        each item, index in detailData
+          if index === 0
+            include ../projectcardClean.pug
