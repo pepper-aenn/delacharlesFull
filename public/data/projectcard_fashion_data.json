@@ -1,16 +1,16 @@
 [
-  { "imageUrl": "images/projectcards/fashion/0_rtco1.jpg", "text": "R.T.CO" },
-  { "imageUrl": "images/projectcards/fashion/1_Startseite-2.jpg", "text": "⁠Eli Preiss" },
-  { "imageUrl": "images/projectcards/fashion/2_Luke_Anderson_Analog_Alexanderplatz-5.jpg", "text": "Luke" },
-  { "imageUrl": "images/projectcards/fashion/3_CAE_BW_Analog-34.jpg", "text": "⁠Cae Hunde die bellen beißen" },
-  { "imageUrl": "images/projectcards/fashion/4_Kat_Kesler-11.jpg", "text": "Kat" },
-  { "imageUrl": "images/projectcards/fashion/5_FuckCae_LR-1.jpg", "text": "Philipp" },
-  { "imageUrl": "images/projectcards/fashion/6_CAE-13.jpg", "text": "Cae 2022" },
-  { "imageUrl": "images/projectcards/fashion/7_UrbanPlayground_Fin_An-10.jpg", "text": "Car Girls" },
-  { "imageUrl": "images/projectcards/fashion/8_Mala.jpeg", "text": "Mala" },
-  { "imageUrl": "images/projectcards/fashion/9_Alessia_Cover.jpg", "text": "Alessia" },
-  { "imageUrl": "images/projectcards/fashion/10_jacob1.jpg", "text": "Jakob" },
-  { "imageUrl": "images/projectcards/fashion/11_rtco.jpeg", "text": "R.T.CO" }
+  { "imageUrl": "images/projectcards/fashion/0_rtco1.jpg", "text": "R.T.CO",  "routeName": "rtco" },
+  { "imageUrl": "images/projectcards/fashion/1_Startseite-2.jpg", "text": "⁠Eli Preiss",  "routeName": "elipreiss" },
+  { "imageUrl": "images/projectcards/fashion/2_Luke_Anderson_Analog_Alexanderplatz-5.jpg", "text": "Luke",  "routeName": "luke" },
+  { "imageUrl": "images/projectcards/fashion/3_CAE_BW_Analog-34.jpg", "text": "⁠Cae Hunde die bellen beißen",  "routeName": "caeHundediebellenbeißen" },
+  { "imageUrl": "images/projectcards/fashion/4_Kat_Kesler-11.jpg", "text": "Kat",  "routeName": "kat"},
+  { "imageUrl": "images/projectcards/fashion/5_FuckCae_LR-1.jpg", "text": "Philipp",  "routeName": "philipp" },
+  { "imageUrl": "images/projectcards/fashion/6_CAE-13.jpg", "text": "Cae 2022",  "routeName": "cae2022"},
+  { "imageUrl": "images/projectcards/fashion/7_UrbanPlayground_Fin_An-10.jpg", "text": "Car Girls",  "routeName": "cargirls" },
+  { "imageUrl": "images/projectcards/fashion/8_Mala.jpeg", "text": "Mala",  "routeName": "mala"},
+  { "imageUrl": "images/projectcards/fashion/9_Alessia_Cover.jpg", "text": "Alessia",  "routeName": "alessia" },
+  { "imageUrl": "images/projectcards/fashion/10_jacob1.jpg", "text": "Jakob",  "routeName": "jakob" },
+  { "imageUrl": "images/projectcards/fashion/11_rtco.jpeg", "text": "R.T.CO" ,  "routeName": "rtco2"}
 ]
 
   
