@@ -4,7 +4,32 @@ block content
   body.detailed-view
     include ../sidemenu.pug
     .container-projectcard
-      .group-5
-        each item, index in detailData
-          if index === 0
-            include ../projectcardClean.pug
+        .group-5
+            each item, index in detailData
+                if index === 0
+                    include ../projectcardClean.pug
+        .group-4
+            .left
+                each item, index in detailData
+                    if index >= 1 && index <= 2
+                        include ../projectcardClean.pug
+        .group-0 
+            each item, index in detailData
+                if index === 3
+                    include ../projectcardClean.pug
+        .group-0
+            each item, index in detailData
+                if index === 4
+                    include ../projectcardClean.pug
+        .group-5
+            each item, index in detailData
+                if index === 5
+                    include ../projectcardClean.pug
+        .group-6
+            each item, index in detailData
+                if index >=6 && index <= 8
+                    include ../projectcardClean.pug
+        .group-5
+            each item, index in detailData
+                if index === 5
+                    include ../projectcardClean.pug
